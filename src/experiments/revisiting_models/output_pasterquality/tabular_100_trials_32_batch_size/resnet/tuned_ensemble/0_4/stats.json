@@ -1,0 +1,29 @@
+{
+    "dataset": "new_recorder_whole_merged_batches",
+    "algorithm": "resnet",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/resnet/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 2.28042074396111,
+            "score": -2.28042074396111
+        },
+        "val": {
+            "rmse": 2.445910994563971,
+            "score": -2.445910994563971
+        },
+        "test": {
+            "rmse": 3.106481787172122,
+            "score": -3.106481787172122
+        }
+    }
+}

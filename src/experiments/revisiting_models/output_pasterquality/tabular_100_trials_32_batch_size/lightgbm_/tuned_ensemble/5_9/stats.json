@@ -1,0 +1,29 @@
+{
+    "dataset": "new_recorder_whole_merged_batches",
+    "algorithm": "lightgbm_",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/lightgbm_/tuned",
+        "seeds": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.8012201210190025,
+            "score": -0.8012201210190025
+        },
+        "val": {
+            "rmse": 3.441268734748325,
+            "score": -3.441268734748325
+        },
+        "test": {
+            "rmse": 3.5670767723059917,
+            "score": -3.5670767723059917
+        }
+    }
+}

@@ -1,0 +1,640 @@
+{
+    "autoint": {
+        "MAPE": {
+            "train": {
+                "mean": 9.0623,
+                "std_dev": 0.3431
+            },
+            "val": {
+                "mean": 11.5642,
+                "std_dev": 0.4716
+            },
+            "test": {
+                "mean": 10.0409,
+                "std_dev": 0.3751
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "2.2099",
+                "std_dev": "0.0779"
+            },
+            "val": {
+                "mean": "2.6842",
+                "std_dev": "0.0489"
+            },
+            "test": {
+                "mean": "3.0188",
+                "std_dev": "0.0646"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.6495",
+                "std_dev": "0.0512"
+            },
+            "val": {
+                "mean": "2.1147",
+                "std_dev": "0.0839"
+            },
+            "test": {
+                "mean": "1.9732",
+                "std_dev": "0.0512"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.905,
+                "std_dev": 0.0066
+            },
+            "val": {
+                "mean": 0.8426,
+                "std_dev": 0.0057
+            },
+            "test": {
+                "mean": 0.8753,
+                "std_dev": 0.0053
+            }
+        }
+    },
+    "catboost_": {
+        "MAPE": {
+            "train": {
+                "mean": 8.1008,
+                "std_dev": 0.2705
+            },
+            "val": {
+                "mean": 12.8606,
+                "std_dev": 0.0896
+            },
+            "test": {
+                "mean": 11.1245,
+                "std_dev": 0.1184
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": 1.8574,
+                "std_dev": 0.0737
+            },
+            "val": {
+                "mean": 3.7537,
+                "std_dev": 0.0975
+            },
+            "test": {
+                "mean": 3.7693,
+                "std_dev": 0.1406
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": 1.4108,
+                "std_dev": 0.0455
+            },
+            "val": {
+                "mean": 2.5253,
+                "std_dev": 0.0264
+            },
+            "test": {
+                "mean": 2.14,
+                "std_dev": 0.0488
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9329,
+                "std_dev": 0.0054
+            },
+            "val": {
+                "mean": 0.6921,
+                "std_dev": 0.016
+            },
+            "test": {
+                "mean": 0.8053,
+                "std_dev": 0.0143
+            }
+        }
+    },
+    "dcn2": {
+        "MAPE": {
+            "train": {
+                "mean": 9.7118,
+                "std_dev": 0.298
+            },
+            "val": {
+                "mean": 12.0769,
+                "std_dev": 0.6007
+            },
+            "test": {
+                "mean": 10.1756,
+                "std_dev": 0.5073
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "2.5769",
+                "std_dev": "0.1449"
+            },
+            "val": {
+                "mean": "2.6267",
+                "std_dev": "0.1612"
+            },
+            "test": {
+                "mean": "3.8616",
+                "std_dev": "0.2298"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.8003",
+                "std_dev": "0.0688"
+            },
+            "val": {
+                "mean": "2.0478",
+                "std_dev": "0.0757"
+            },
+            "test": {
+                "mean": "2.1251",
+                "std_dev": "0.104"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.8706,
+                "std_dev": 0.0143
+            },
+            "val": {
+                "mean": 0.8488,
+                "std_dev": 0.0187
+            },
+            "test": {
+                "mean": 0.7952,
+                "std_dev": 0.0242
+            }
+        }
+    },
+    "ft_transformer": {
+        "MAPE": {
+            "train": {
+                "mean": 9.5594,
+                "std_dev": 0.2938
+            },
+            "val": {
+                "mean": 11.7428,
+                "std_dev": 0.217
+            },
+            "test": {
+                "mean": 10.3127,
+                "std_dev": 0.5264
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "2.2275",
+                "std_dev": "0.0572"
+            },
+            "val": {
+                "mean": "2.5653",
+                "std_dev": "0.0022"
+            },
+            "test": {
+                "mean": "2.7593",
+                "std_dev": "0.1279"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.6975",
+                "std_dev": "0.0364"
+            },
+            "val": {
+                "mean": "2.0481",
+                "std_dev": "0.0202"
+            },
+            "test": {
+                "mean": "1.8937",
+                "std_dev": "0.0794"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9036,
+                "std_dev": 0.0049
+            },
+            "val": {
+                "mean": 0.8563,
+                "std_dev": 0.0003
+            },
+            "test": {
+                "mean": 0.8956,
+                "std_dev": 0.0096
+            }
+        }
+    },
+    "grownet": {
+        "MAPE": {
+            "train": {
+                "mean": 6.3192,
+                "std_dev": 0.3365
+            },
+            "val": {
+                "mean": 12.7028,
+                "std_dev": 0.2349
+            },
+            "test": {
+                "mean": 9.779,
+                "std_dev": 0.625
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "1.723",
+                "std_dev": "0.092"
+            },
+            "val": {
+                "mean": "2.9447",
+                "std_dev": "0.1142"
+            },
+            "test": {
+                "mean": "2.8751",
+                "std_dev": "0.1468"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.1552",
+                "std_dev": "0.045"
+            },
+            "val": {
+                "mean": "2.3189",
+                "std_dev": "0.0483"
+            },
+            "test": {
+                "mean": "1.8884",
+                "std_dev": "0.1117"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9422,
+                "std_dev": 0.0062
+            },
+            "val": {
+                "mean": 0.8104,
+                "std_dev": 0.0149
+            },
+            "test": {
+                "mean": 0.8866,
+                "std_dev": 0.0114
+            }
+        }
+    },
+    "lightgbm_": {
+        "MAPE": {
+            "train": {
+                "mean": 2.3536,
+                "std_dev": 0.3665
+            },
+            "val": {
+                "mean": 11.0425,
+                "std_dev": 0.2656
+            },
+            "test": {
+                "mean": 11.8771,
+                "std_dev": 0.1992
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": 0.9699,
+                "std_dev": 0.1293
+            },
+            "val": {
+                "mean": 3.378,
+                "std_dev": 0.0653
+            },
+            "test": {
+                "mean": 3.6202,
+                "std_dev": 0.0546
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": 0.4732,
+                "std_dev": 0.0739
+            },
+            "val": {
+                "mean": 2.1897,
+                "std_dev": 0.0449
+            },
+            "test": {
+                "mean": 2.277,
+                "std_dev": 0.0306
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9814,
+                "std_dev": 0.0048
+            },
+            "val": {
+                "mean": 0.7508,
+                "std_dev": 0.0096
+            },
+            "test": {
+                "mean": 0.8206,
+                "std_dev": 0.0054
+            }
+        }
+    },
+    "mlp": {
+        "MAPE": {
+            "train": {
+                "mean": 8.091,
+                "std_dev": 0.1321
+            },
+            "val": {
+                "mean": 12.4196,
+                "std_dev": 0.1249
+            },
+            "test": {
+                "mean": 9.8729,
+                "std_dev": 0.0531
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "1.8947",
+                "std_dev": "0.0205"
+            },
+            "val": {
+                "mean": "2.6776",
+                "std_dev": "0.0564"
+            },
+            "test": {
+                "mean": "2.977",
+                "std_dev": "0.0589"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.4315",
+                "std_dev": "0.0176"
+            },
+            "val": {
+                "mean": "2.1655",
+                "std_dev": "0.0218"
+            },
+            "test": {
+                "mean": "1.8998",
+                "std_dev": "0.0136"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9303,
+                "std_dev": 0.0015
+            },
+            "val": {
+                "mean": 0.8434,
+                "std_dev": 0.0066
+            },
+            "test": {
+                "mean": 0.8787,
+                "std_dev": 0.0048
+            }
+        }
+    },
+    "resnet": {
+        "MAPE": {
+            "train": {
+                "mean": 9.1842,
+                "std_dev": 0.0435
+            },
+            "val": {
+                "mean": 11.4137,
+                "std_dev": 0.2811
+            },
+            "test": {
+                "mean": 9.7416,
+                "std_dev": 0.3278
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "2.4085",
+                "std_dev": "0.1512"
+            },
+            "val": {
+                "mean": "2.5212",
+                "std_dev": "0.0615"
+            },
+            "test": {
+                "mean": "2.8308",
+                "std_dev": "0.2752"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.6991",
+                "std_dev": "0.0295"
+            },
+            "val": {
+                "mean": "1.9964",
+                "std_dev": "0.0411"
+            },
+            "test": {
+                "mean": "1.8823",
+                "std_dev": "0.1052"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.8869,
+                "std_dev": 0.0144
+            },
+            "val": {
+                "mean": 0.8611,
+                "std_dev": 0.0068
+            },
+            "test": {
+                "mean": 0.8893,
+                "std_dev": 0.0208
+            }
+        }
+    },
+    "snn": {
+        "MAPE": {
+            "train": {
+                "mean": 7.8365,
+                "std_dev": 0.3447
+            },
+            "val": {
+                "mean": 10.3597,
+                "std_dev": 0.2037
+            },
+            "test": {
+                "mean": 10.0015,
+                "std_dev": 0.4667
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "2.3936",
+                "std_dev": "0.3505"
+            },
+            "val": {
+                "mean": "2.4643",
+                "std_dev": "0.0282"
+            },
+            "test": {
+                "mean": "2.6951",
+                "std_dev": "0.3468"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "1.5106",
+                "std_dev": "0.0879"
+            },
+            "val": {
+                "mean": "1.8824",
+                "std_dev": "0.0359"
+            },
+            "test": {
+                "mean": "1.8459",
+                "std_dev": "0.1193"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.8863,
+                "std_dev": 0.033
+            },
+            "val": {
+                "mean": 0.8674,
+                "std_dev": 0.003
+            },
+            "test": {
+                "mean": 0.899,
+                "std_dev": 0.0267
+            }
+        }
+    },
+    "tabnet": {
+        "MAPE": {
+            "train": {
+                "mean": 12.0746,
+                "std_dev": 0.8308
+            },
+            "val": {
+                "mean": 13.4738,
+                "std_dev": 0.737
+            },
+            "test": {
+                "mean": 12.9702,
+                "std_dev": 0.6733
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "3.7158",
+                "std_dev": "0.1514"
+            },
+            "val": {
+                "mean": "2.8662",
+                "std_dev": "0.1344"
+            },
+            "test": {
+                "mean": "3.7206",
+                "std_dev": "0.2681"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "2.3151",
+                "std_dev": "0.1224"
+            },
+            "val": {
+                "mean": "2.3598",
+                "std_dev": "0.1308"
+            },
+            "test": {
+                "mean": "2.4709",
+                "std_dev": "0.1061"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.7314,
+                "std_dev": 0.0222
+            },
+            "val": {
+                "mean": 0.8202,
+                "std_dev": 0.0167
+            },
+            "test": {
+                "mean": 0.8096,
+                "std_dev": 0.0272
+            }
+        }
+    },
+    "xgboost_": {
+        "MAPE": {
+            "train": {
+                "mean": 4.134,
+                "std_dev": 0.7138
+            },
+            "val": {
+                "mean": 12.475,
+                "std_dev": 0.0513
+            },
+            "test": {
+                "mean": 11.2598,
+                "std_dev": 0.1784
+            }
+        },
+        "RMSE": {
+            "train": {
+                "mean": "1.0621",
+                "std_dev": "0.1877"
+            },
+            "val": {
+                "mean": "3.6064",
+                "std_dev": "0.026"
+            },
+            "test": {
+                "mean": "3.8802",
+                "std_dev": "0.2031"
+            }
+        },
+        "MAE": {
+            "train": {
+                "mean": "0.7324",
+                "std_dev": "0.127"
+            },
+            "val": {
+                "mean": "2.4133",
+                "std_dev": "0.0162"
+            },
+            "test": {
+                "mean": "2.241",
+                "std_dev": "0.0521"
+            }
+        },
+        "R2": {
+            "train": {
+                "mean": 0.9774,
+                "std_dev": 0.0073
+            },
+            "val": {
+                "mean": 0.716,
+                "std_dev": 0.0041
+            },
+            "test": {
+                "mean": 0.7934,
+                "std_dev": 0.0217
+            }
+        }
+    }
+}

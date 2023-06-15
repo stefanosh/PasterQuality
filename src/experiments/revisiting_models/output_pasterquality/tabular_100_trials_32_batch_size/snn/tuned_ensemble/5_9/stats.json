@@ -1,0 +1,29 @@
+{
+    "dataset": "new_recorder_whole_merged_batches",
+    "algorithm": "snn",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/snn/tuned",
+        "seeds": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 2.3543670479330587,
+            "score": -2.3543670479330587
+        },
+        "val": {
+            "rmse": 2.4430760466872976,
+            "score": -2.4430760466872976
+        },
+        "test": {
+            "rmse": 2.483575365833842,
+            "score": -2.483575365833842
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "dataset": "data/new_recorder_whole_merged_batches",
+    "algorithm": "tabnet",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/tabnet/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 3.9297900847867444,
+            "score": -3.9297900847867444
+        },
+        "val": {
+            "rmse": 2.6853579483880954,
+            "score": -2.6853579483880954
+        },
+        "test": {
+            "rmse": 3.3866834427154275,
+            "score": -3.3866834427154275
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "dataset": "new_recorder_whole_merged_batches",
+    "algorithm": "xgboost_",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/xgboost_/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.2010669933260836,
+            "score": -1.2010669933260836
+        },
+        "val": {
+            "rmse": 3.591887464619792,
+            "score": -3.591887464619792
+        },
+        "test": {
+            "rmse": 4.146956539833386,
+            "score": -4.146956539833386
+        }
+    }
+}

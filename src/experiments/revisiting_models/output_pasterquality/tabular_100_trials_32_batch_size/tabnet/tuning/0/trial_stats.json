@@ -1,0 +1,5302 @@
+[
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 10,
+                "relaxation_factor": 1.71518936637242,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.7315198568394041,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006612073271073752
+                },
+                "sparsity_loss_weight": 8.354270566129819e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.499977135598107,
+                "score": -4.499977135598107
+            },
+            "val": {
+                "rmse": 3.762142717507792,
+                "score": -3.762142717507792
+            },
+            "test": {
+                "rmse": 5.34010753422372,
+                "score": -5.34010753422372
+            }
+        },
+        "time": "00h 00m 32s",
+        "trial_id": 0,
+        "tuning_time": "0:00:48"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.272656294580113,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6627158145267424,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.006112401049845392
+                },
+                "sparsity_loss_weight": 0.04246031301768214
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 3.860112647333532,
+                "score": -3.860112647333532
+            },
+            "val": {
+                "rmse": 3.435685714975767,
+                "score": -3.435685714975767
+            },
+            "test": {
+                "rmse": 3.8635901521862173,
+                "score": -3.8635901521862173
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 1,
+        "tuning_time": "0:01:02"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.648171872051197,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6025328469123014,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008003410758548655
+                },
+                "sparsity_loss_weight": 0.0223903427216837
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 11,
+        "metrics": {
+            "train": {
+                "rmse": 4.556618355284914,
+                "score": -4.556618355284914
+            },
+            "val": {
+                "rmse": 3.6948743181775914,
+                "score": -3.6948743181775914
+            },
+            "test": {
+                "rmse": 4.8480425954182875,
+                "score": -4.8480425954182875
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 2,
+        "tuning_time": "0:01:20"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 6,
+                "relaxation_factor": 1.799158564216724,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6538136492391124,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.007485693892533251
+                },
+                "sparsity_loss_weight": 0.0008130157526376587
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.050715108615731,
+                "score": -4.050715108615731
+            },
+            "val": {
+                "rmse": 3.6465794959376043,
+                "score": -3.6465794959376043
+            },
+            "test": {
+                "rmse": 4.843390650554294,
+                "score": -4.843390650554294
+            }
+        },
+        "time": "00h 00m 18s",
+        "trial_id": 3,
+        "tuning_time": "0:01:48"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 10,
+                "relaxation_factor": 1.758615624322357,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4582491839532857,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.00796810320490795
+                },
+                "sparsity_loss_weight": 0.0001908761475614597
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 8,
+        "metrics": {
+            "train": {
+                "rmse": 4.481704231990823,
+                "score": -4.481704231990823
+            },
+            "val": {
+                "rmse": 3.7864956599249298,
+                "score": -3.7864956599249298
+            },
+            "test": {
+                "rmse": 5.7908944939665945,
+                "score": -5.7908944939665945
+            }
+        },
+        "time": "00h 00m 32s",
+        "trial_id": 4,
+        "tuning_time": "0:02:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.018789800436355,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.7396995233917323,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.003000892494264289
+                },
+                "sparsity_loss_weight": 8.559431203360217e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 49,
+        "metrics": {
+            "train": {
+                "rmse": 11.561662295289747,
+                "score": -11.561662295289747
+            },
+            "val": {
+                "rmse": 4.167616821745867,
+                "score": -4.167616821745867
+            },
+            "test": {
+                "rmse": 8.021611779307483,
+                "score": -8.021611779307483
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 5,
+        "tuning_time": "0:02:54"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.449949989911228,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.7371849018362728,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007278680763345384
+                },
+                "sparsity_loss_weight": 2.000448421063885e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 9.150723894051902,
+                "score": -9.150723894051902
+            },
+            "val": {
+                "rmse": 3.33779248816808,
+                "score": -3.33779248816808
+            },
+            "test": {
+                "rmse": 4.3407700774698785,
+                "score": -4.3407700774698785
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 6,
+        "tuning_time": "0:03:15"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 9,
+                "relaxation_factor": 1.670637869618159,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5157104085906125,
+                    "decay_steps": 100,
+                    "learning_rate": 0.003838855158317655
+                },
+                "sparsity_loss_weight": 6.584970818505353e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 11,
+        "metrics": {
+            "train": {
+                "rmse": 4.196331645894115,
+                "score": -4.196331645894115
+            },
+            "val": {
+                "rmse": 3.841364127248876,
+                "score": -3.841364127248876
+            },
+            "test": {
+                "rmse": 4.3118539842215915,
+                "score": -4.3118539842215915
+            }
+        },
+        "time": "00h 00m 30s",
+        "trial_id": 7,
+        "tuning_time": "0:04:00"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.43860151346232,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.9436056109325743,
+                    "decay_steps": 100,
+                    "learning_rate": 0.006875112853049418
+                },
+                "sparsity_loss_weight": 0.001497250159488887
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.113286317388417,
+                "score": -4.113286317388417
+            },
+            "val": {
+                "rmse": 3.386140941118496,
+                "score": -3.386140941118496
+            },
+            "test": {
+                "rmse": 5.71315965958576,
+                "score": -5.71315965958576
+            }
+        },
+        "time": "00h 00m 14s",
+        "trial_id": 8,
+        "tuning_time": "0:04:23"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 7,
+                "relaxation_factor": 1.581850329438534,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6279027235245028,
+                    "decay_steps": 100,
+                    "learning_rate": 0.003199830328014425
+                },
+                "sparsity_loss_weight": 6.235164534943645e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.397257244730834,
+                "score": -5.397257244730834
+            },
+            "val": {
+                "rmse": 3.9674192439924583,
+                "score": -3.9674192439924583
+            },
+            "test": {
+                "rmse": 3.416177262639944,
+                "score": -3.416177262639944
+            }
+        },
+        "time": "00h 00m 26s",
+        "trial_id": 9,
+        "tuning_time": "0:05:00"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 7,
+                "relaxation_factor": 1.996785258810845,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.8897433857865986,
+                    "decay_steps": 500,
+                    "learning_rate": 0.009839026360522451
+                },
+                "sparsity_loss_weight": 1.275186906259195e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.133701922203151,
+                "score": -4.133701922203151
+            },
+            "val": {
+                "rmse": 3.731968699571605,
+                "score": -3.731968699571605
+            },
+            "test": {
+                "rmse": 4.930569114047175,
+                "score": -4.930569114047175
+            }
+        },
+        "time": "00h 00m 23s",
+        "trial_id": 10,
+        "tuning_time": "0:05:35"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.361323935923084,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.9494640052681922,
+                    "decay_steps": 100,
+                    "learning_rate": 0.005034444264913942
+                },
+                "sparsity_loss_weight": 0.003853563354730342
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.0202331045008775,
+                "score": -4.0202331045008775
+            },
+            "val": {
+                "rmse": 3.444750284048793,
+                "score": -3.444750284048793
+            },
+            "test": {
+                "rmse": 5.36259390757573,
+                "score": -5.36259390757573
+            }
+        },
+        "time": "00h 00m 14s",
+        "trial_id": 11,
+        "tuning_time": "0:05:58"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.363156899713808,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.8486039341383813,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00987850265506356
+                },
+                "sparsity_loss_weight": 0.001760441102682745
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 11,
+        "metrics": {
+            "train": {
+                "rmse": 3.757188128949454,
+                "score": -3.757188128949454
+            },
+            "val": {
+                "rmse": 3.874068499706087,
+                "score": -3.874068499706087
+            },
+            "test": {
+                "rmse": 5.428012897339997,
+                "score": -5.428012897339997
+            }
+        },
+        "time": "00h 00m 14s",
+        "trial_id": 12,
+        "tuning_time": "0:06:21"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.143740710081059,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.8063515298247684,
+                    "decay_steps": 100,
+                    "learning_rate": 0.00879980463028463
+                },
+                "sparsity_loss_weight": 5.887849723912004e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 11,
+        "metrics": {
+            "train": {
+                "rmse": 3.9383852569105584,
+                "score": -3.9383852569105584
+            },
+            "val": {
+                "rmse": 3.6877536673229967,
+                "score": -3.6877536673229967
+            },
+            "test": {
+                "rmse": 4.65427593062106,
+                "score": -4.65427593062106
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 13,
+        "tuning_time": "0:06:39"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.458354545016059,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.9359461748261863,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00494364922240313
+                },
+                "sparsity_loss_weight": 0.007177333093766878
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.0050336266412545,
+                "score": -5.0050336266412545
+            },
+            "val": {
+                "rmse": 4.077290084368905,
+                "score": -4.077290084368905
+            },
+            "test": {
+                "rmse": 3.265634706927514,
+                "score": -3.265634706927514
+            }
+        },
+        "time": "00h 00m 17s",
+        "trial_id": 14,
+        "tuning_time": "0:07:05"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 6,
+                "relaxation_factor": 1.49211382126501,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.783415695348623,
+                    "decay_steps": 100,
+                    "learning_rate": 0.001226059001751947
+                },
+                "sparsity_loss_weight": 0.0006039694578827473
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 4.346848669752009,
+                "score": -4.346848669752009
+            },
+            "val": {
+                "rmse": 4.3040563952762305,
+                "score": -4.3040563952762305
+            },
+            "test": {
+                "rmse": 3.9034959816556003,
+                "score": -3.9034959816556003
+            }
+        },
+        "time": "00h 00m 20s",
+        "trial_id": 15,
+        "tuning_time": "0:07:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.261299762704859,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5322491257429358,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006750968598776494
+                },
+                "sparsity_loss_weight": 1.297503128136486e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 11.438355198436382,
+                "score": -11.438355198436382
+            },
+            "val": {
+                "rmse": 3.1216134206994317,
+                "score": -3.1216134206994317
+            },
+            "test": {
+                "rmse": 4.553358753372623,
+                "score": -4.553358753372623
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 16,
+        "tuning_time": "0:07:56"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.186053171181201,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5382350077832596,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00871186193178832
+                },
+                "sparsity_loss_weight": 1.045938881855232e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 9.750498154438153,
+                "score": -9.750498154438153
+            },
+            "val": {
+                "rmse": 2.9853066304483638,
+                "score": -2.9853066304483638
+            },
+            "test": {
+                "rmse": 3.7245197639340635,
+                "score": -3.7245197639340635
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 17,
+        "tuning_time": "0:08:12"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.141955516539571,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5491819103384475,
+                    "decay_steps": 500,
+                    "learning_rate": 0.009139839767200257
+                },
+                "sparsity_loss_weight": 1.522234974241656e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 28,
+        "metrics": {
+            "train": {
+                "rmse": 6.756369983845254,
+                "score": -6.756369983845254
+            },
+            "val": {
+                "rmse": 3.2783422454019937,
+                "score": -3.2783422454019937
+            },
+            "test": {
+                "rmse": 3.202276568071705,
+                "score": -3.202276568071705
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 18,
+        "tuning_time": "0:08:29"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 8,
+                "relaxation_factor": 1.030766658151404,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4066222600364644,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008634857014803213
+                },
+                "sparsity_loss_weight": 1.991138294618022e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 5.832114615056548,
+                "score": -5.832114615056548
+            },
+            "val": {
+                "rmse": 3.875853244939627,
+                "score": -3.875853244939627
+            },
+            "test": {
+                "rmse": 3.4835035408504287,
+                "score": -3.4835035408504287
+            }
+        },
+        "time": "00h 00m 32s",
+        "trial_id": 19,
+        "tuning_time": "0:09:14"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.215605265793465,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4814816831313892,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005626042500571778
+                },
+                "sparsity_loss_weight": 1.007640135799122e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.6281409935143305,
+                "score": -3.6281409935143305
+            },
+            "val": {
+                "rmse": 3.162275658694673,
+                "score": -3.162275658694673
+            },
+            "test": {
+                "rmse": 2.9672027200103717,
+                "score": -2.9672027200103717
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 20,
+        "tuning_time": "0:09:29"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.206005642264385,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4777933273805087,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005689141771723246
+                },
+                "sparsity_loss_weight": 1.008438371489289e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.450896992003705,
+                "score": -4.450896992003705
+            },
+            "val": {
+                "rmse": 2.9106318922786802,
+                "score": -2.9106318922786802
+            },
+            "test": {
+                "rmse": 2.7567107755671985,
+                "score": -2.7567107755671985
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 21,
+        "tuning_time": "0:09:44"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.13119525632417,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5678053305856144,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005906727668916903
+                },
+                "sparsity_loss_weight": 3.350438840013471e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 6.8128743320038465,
+                "score": -6.8128743320038465
+            },
+            "val": {
+                "rmse": 3.5557661910758664,
+                "score": -3.5557661910758664
+            },
+            "test": {
+                "rmse": 3.168522771274091,
+                "score": -3.168522771274091
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 22,
+        "tuning_time": "0:10:05"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.27084503333942,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4024572770572883,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004533541591468744
+                },
+                "sparsity_loss_weight": 1.454697265547249e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.425799638057814,
+                "score": -3.425799638057814
+            },
+            "val": {
+                "rmse": 2.9858714681244476,
+                "score": -2.9858714681244476
+            },
+            "test": {
+                "rmse": 3.584717412405168,
+                "score": -3.584717412405168
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 23,
+        "tuning_time": "0:10:20"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.060333464485239,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4125251512163761,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004229378649423908
+                },
+                "sparsity_loss_weight": 1.497369814920807e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.809862572215482,
+                "score": -3.809862572215482
+            },
+            "val": {
+                "rmse": 3.0658276816191306,
+                "score": -3.0658276816191306
+            },
+            "test": {
+                "rmse": 3.470764625631637,
+                "score": -3.470764625631637
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 24,
+        "tuning_time": "0:10:35"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.331006423560654,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4631428351364791,
+                    "decay_steps": 500,
+                    "learning_rate": 0.001616994662906398
+                },
+                "sparsity_loss_weight": 2.907844090622122e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 5.774370453741637,
+                "score": -5.774370453741637
+            },
+            "val": {
+                "rmse": 5.71827308477098,
+                "score": -5.71827308477098
+            },
+            "test": {
+                "rmse": 7.235640128988048,
+                "score": -7.235640128988048
+            }
+        },
+        "time": "00h 00m 07s",
+        "trial_id": 25,
+        "tuning_time": "0:10:49"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.212859422864626,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4284339589683958,
+                    "decay_steps": 500,
+                    "learning_rate": 0.001946682729411332
+                },
+                "sparsity_loss_weight": 4.681631984107286e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.956902120585854,
+                "score": -5.956902120585854
+            },
+            "val": {
+                "rmse": 4.71667420344971,
+                "score": -4.71667420344971
+            },
+            "test": {
+                "rmse": 3.3351412444291806,
+                "score": -3.3351412444291806
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 26,
+        "tuning_time": "0:11:10"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.09720479023528,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5877417225140411,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004352362885113919
+                },
+                "sparsity_loss_weight": 2.446627604043588e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 4.077744681936211,
+                "score": -4.077744681936211
+            },
+            "val": {
+                "rmse": 3.333412357310173,
+                "score": -3.333412357310173
+            },
+            "test": {
+                "rmse": 3.1765547145302846,
+                "score": -3.1765547145302846
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 27,
+        "tuning_time": "0:11:24"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.184624226931907,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.50077816838126,
+                    "decay_steps": 500,
+                    "learning_rate": 0.002606344200961984
+                },
+                "sparsity_loss_weight": 8.098550868765184e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.540812142644611,
+                "score": -4.540812142644611
+            },
+            "val": {
+                "rmse": 4.127235067785943,
+                "score": -4.127235067785943
+            },
+            "test": {
+                "rmse": 3.585116873851771,
+                "score": -3.585116873851771
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 28,
+        "tuning_time": "0:11:42"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.294789991195717,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4455261628159429,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004950138570041666
+                },
+                "sparsity_loss_weight": 3.919403426196657e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 3.8497730895604163,
+                "score": -3.8497730895604163
+            },
+            "val": {
+                "rmse": 3.8867930326546314,
+                "score": -3.8867930326546314
+            },
+            "test": {
+                "rmse": 4.057597777157217,
+                "score": -4.057597777157217
+            }
+        },
+        "time": "00h 00m 14s",
+        "trial_id": 29,
+        "tuning_time": "0:12:05"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.377481229889613,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.495108325866587,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006381512606529988
+                },
+                "sparsity_loss_weight": 1.037776689088891e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.855157196218502,
+                "score": -3.855157196218502
+            },
+            "val": {
+                "rmse": 3.371705481052456,
+                "score": -3.371705481052456
+            },
+            "test": {
+                "rmse": 3.1383097188080855,
+                "score": -3.1383097188080855
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 30,
+        "tuning_time": "0:12:20"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.076060969736904,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4077623697123611,
+                    "decay_steps": 500,
+                    "learning_rate": 0.003915965393727445
+                },
+                "sparsity_loss_weight": 1.030625212599289e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 4.1190717982432385,
+                "score": -4.1190717982432385
+            },
+            "val": {
+                "rmse": 3.420418547688656,
+                "score": -3.420418547688656
+            },
+            "test": {
+                "rmse": 4.0599445883683565,
+                "score": -4.0599445883683565
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 31,
+        "tuning_time": "0:12:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.022792079427184,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4038778808753156,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004069468942123925
+                },
+                "sparsity_loss_weight": 1.859266788080845e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 3.5541761437148316,
+                "score": -3.5541761437148316
+            },
+            "val": {
+                "rmse": 3.4454120467339497,
+                "score": -3.4454120467339497
+            },
+            "test": {
+                "rmse": 3.0182215503704293,
+                "score": -3.0182215503704293
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 32,
+        "tuning_time": "0:12:51"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.280763275538558,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4362670355139103,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004682613906393599
+                },
+                "sparsity_loss_weight": 3.072000526324272e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 6.505297463619604,
+                "score": -6.505297463619604
+            },
+            "val": {
+                "rmse": 3.9669473618337574,
+                "score": -3.9669473618337574
+            },
+            "test": {
+                "rmse": 3.0924411290242912,
+                "score": -3.0924411290242912
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 33,
+        "tuning_time": "0:13:11"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.073600735470043,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4012427011705906,
+                    "decay_steps": 500,
+                    "learning_rate": 0.003560240885346907
+                },
+                "sparsity_loss_weight": 9.849305711650358e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 3.881341324330936,
+                "score": -3.881341324330936
+            },
+            "val": {
+                "rmse": 4.659248110129245,
+                "score": -4.659248110129245
+            },
+            "test": {
+                "rmse": 4.220137627107123,
+                "score": -4.220137627107123
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 34,
+        "tuning_time": "0:13:26"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.199195213376949,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4771128355079466,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.005317100777882984
+                },
+                "sparsity_loss_weight": 1.130662796214466e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.966948692655736,
+                "score": -4.966948692655736
+            },
+            "val": {
+                "rmse": 3.552435070526449,
+                "score": -3.552435070526449
+            },
+            "test": {
+                "rmse": 2.833799178544162,
+                "score": -2.833799178544162
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 35,
+        "tuning_time": "0:13:46"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.224469205318956,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6974960170362934,
+                    "decay_steps": 500,
+                    "learning_rate": 0.002610106189690947
+                },
+                "sparsity_loss_weight": 0.0002608544454412632
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 17,
+        "metrics": {
+            "train": {
+                "rmse": 7.805626610090367,
+                "score": -7.805626610090367
+            },
+            "val": {
+                "rmse": 4.216392656002667,
+                "score": -4.216392656002667
+            },
+            "test": {
+                "rmse": 4.002228223233183,
+                "score": -4.002228223233183
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 36,
+        "tuning_time": "0:14:02"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.155556531932851,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5335572977903071,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.004329208011109955
+                },
+                "sparsity_loss_weight": 2.396135145442947e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.5316547962372216,
+                "score": -3.5316547962372216
+            },
+            "val": {
+                "rmse": 3.1831940560585523,
+                "score": -3.1831940560585523
+            },
+            "test": {
+                "rmse": 2.7787148139481928,
+                "score": -2.7787148139481928
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 37,
+        "tuning_time": "0:14:16"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 10,
+                "relaxation_factor": 1.006444933089122,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6129378453074503,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005897858043157509
+                },
+                "sparsity_loss_weight": 8.98054473631959e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 4.35471586768793,
+                "score": -4.35471586768793
+            },
+            "val": {
+                "rmse": 4.010169605584885,
+                "score": -4.010169605584885
+            },
+            "test": {
+                "rmse": 4.318948652983594,
+                "score": -4.318948652983594
+            }
+        },
+        "time": "00h 00m 36s",
+        "trial_id": 38,
+        "tuning_time": "0:15:08"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.26972133267581,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4293543353362838,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007774897107000639
+                },
+                "sparsity_loss_weight": 4.0360087167949e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.56957793720411,
+                "score": -4.56957793720411
+            },
+            "val": {
+                "rmse": 3.335500094471748,
+                "score": -3.335500094471748
+            },
+            "test": {
+                "rmse": 3.8137234901758332,
+                "score": -3.8137234901758332
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 39,
+        "tuning_time": "0:15:28"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.559797781247311,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4649450524448083,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.00348471637289154
+                },
+                "sparsity_loss_weight": 0.0001409905837993673
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.984033364679808,
+                "score": -3.984033364679808
+            },
+            "val": {
+                "rmse": 3.3293396532696202,
+                "score": -3.3293396532696202
+            },
+            "test": {
+                "rmse": 3.6823185622092165,
+                "score": -3.6823185622092165
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 40,
+        "tuning_time": "0:15:43"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.285342415755296,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5165384967202139,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006967989307431503
+                },
+                "sparsity_loss_weight": 1.252183090263236e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 8.270433085716471,
+                "score": -8.270433085716471
+            },
+            "val": {
+                "rmse": 3.025313141451448,
+                "score": -3.025313141451448
+            },
+            "test": {
+                "rmse": 3.6741776625521068,
+                "score": -3.6741776625521068
+            }
+        },
+        "time": "00h 00m 14s",
+        "trial_id": 41,
+        "tuning_time": "0:16:05"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.396653868822356,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5678378252770853,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007390617225238229
+                },
+                "sparsity_loss_weight": 3.459986997405219e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 7.037768965456475,
+                "score": -7.037768965456475
+            },
+            "val": {
+                "rmse": 3.2525521380237246,
+                "score": -3.2525521380237246
+            },
+            "test": {
+                "rmse": 2.7973962902316054,
+                "score": -2.7973962902316054
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 42,
+        "tuning_time": "0:16:25"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 6,
+                "relaxation_factor": 1.315625327175202,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5141020511918396,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00638941889694036
+                },
+                "sparsity_loss_weight": 1.798450479272756e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.437637695015573,
+                "score": -5.437637695015573
+            },
+            "val": {
+                "rmse": 3.488729492879808,
+                "score": -3.488729492879808
+            },
+            "test": {
+                "rmse": 2.9825105492349833,
+                "score": -2.9825105492349833
+            }
+        },
+        "time": "00h 00m 21s",
+        "trial_id": 43,
+        "tuning_time": "0:16:57"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.108746463668375,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6501439466543933,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005391304722463326
+                },
+                "sparsity_loss_weight": 7.96960216361383e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 4.60425832258899,
+                "score": -4.60425832258899
+            },
+            "val": {
+                "rmse": 3.0695478039694106,
+                "score": -3.0695478039694106
+            },
+            "test": {
+                "rmse": 3.094834603714045,
+                "score": -3.094834603714045
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 44,
+        "tuning_time": "0:17:12"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.248738607331785,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4947032073564731,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006881409966881628
+                },
+                "sparsity_loss_weight": 0.04717973689554088
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 3.750486525564206,
+                "score": -3.750486525564206
+            },
+            "val": {
+                "rmse": 3.974501563476042,
+                "score": -3.974501563476042
+            },
+            "test": {
+                "rmse": 4.231576759616501,
+                "score": -4.231576759616501
+            }
+        },
+        "time": "00h 00m 15s",
+        "trial_id": 45,
+        "tuning_time": "0:17:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.898166030576575,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4509941840280688,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00820388519911707
+                },
+                "sparsity_loss_weight": 2.06993890076907e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 18,
+        "metrics": {
+            "train": {
+                "rmse": 11.25068662282128,
+                "score": -11.25068662282128
+            },
+            "val": {
+                "rmse": 3.294745450257711,
+                "score": -3.294745450257711
+            },
+            "test": {
+                "rmse": 4.677159404987734,
+                "score": -4.677159404987734
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 46,
+        "tuning_time": "0:17:55"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.05678691984818,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5277102164288261,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00929227763761875
+                },
+                "sparsity_loss_weight": 0.09437441605326567
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.943756128309155,
+                "score": -4.943756128309155
+            },
+            "val": {
+                "rmse": 3.6493502183122586,
+                "score": -3.6493502183122586
+            },
+            "test": {
+                "rmse": 3.285395463022543,
+                "score": -3.285395463022543
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 47,
+        "tuning_time": "0:18:11"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 5,
+                "relaxation_factor": 1.155446089505176,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5558529055713824,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007009642006021245
+                },
+                "sparsity_loss_weight": 1.499331171961743e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.7916283578299526,
+                "score": -4.7916283578299526
+            },
+            "val": {
+                "rmse": 3.3173401727640064,
+                "score": -3.3173401727640064
+            },
+            "test": {
+                "rmse": 3.2468131637963404,
+                "score": -3.2468131637963404
+            }
+        },
+        "time": "00h 00m 17s",
+        "trial_id": 48,
+        "tuning_time": "0:18:37"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.414622712239172,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5906770373357108,
+                    "decay_steps": 100,
+                    "learning_rate": 0.004599693282220864
+                },
+                "sparsity_loss_weight": 5.227707437021936e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 5.698141132047837,
+                "score": -5.698141132047837
+            },
+            "val": {
+                "rmse": 3.7947290031338574,
+                "score": -3.7947290031338574
+            },
+            "test": {
+                "rmse": 3.904014838232792,
+                "score": -3.904014838232792
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 49,
+        "tuning_time": "0:18:56"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 9,
+                "relaxation_factor": 1.333078954364176,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4214867460913801,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006353845725234602
+                },
+                "sparsity_loss_weight": 5.694628414931288e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.6304966014625197,
+                "score": -3.6304966014625197
+            },
+            "val": {
+                "rmse": 3.8356404313768975,
+                "score": -3.8356404313768975
+            },
+            "test": {
+                "rmse": 4.103466925548895,
+                "score": -4.103466925548895
+            }
+        },
+        "time": "00h 00m 36s",
+        "trial_id": 50,
+        "tuning_time": "0:19:47"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.09623748147007,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6569537363793938,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005397812543562986
+                },
+                "sparsity_loss_weight": 7.298375572105746e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.454476849799239,
+                "score": -4.454476849799239
+            },
+            "val": {
+                "rmse": 3.4790905222759236,
+                "score": -3.4790905222759236
+            },
+            "test": {
+                "rmse": 3.4278973580128866,
+                "score": -3.4278973580128866
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 51,
+        "tuning_time": "0:20:02"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.179959125973059,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6785015789572665,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00564996779591529
+                },
+                "sparsity_loss_weight": 1.130642871743203e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 5.282721826009284,
+                "score": -5.282721826009284
+            },
+            "val": {
+                "rmse": 3.1617259557180795,
+                "score": -3.1617259557180795
+            },
+            "test": {
+                "rmse": 2.9614964024761887,
+                "score": -2.9614964024761887
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 52,
+        "tuning_time": "0:20:17"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.10924846214435,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6338974481638856,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00517144012744561
+                },
+                "sparsity_loss_weight": 3.016107995904386e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 5.079640082351637,
+                "score": -5.079640082351637
+            },
+            "val": {
+                "rmse": 3.009909088303118,
+                "score": -3.009909088303118
+            },
+            "test": {
+                "rmse": 2.737169566589147,
+                "score": -2.737169566589147
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 53,
+        "tuning_time": "0:20:32"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.22990377147421,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6332918797314352,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005008930522244758
+                },
+                "sparsity_loss_weight": 2.614432343476795e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 3.6167007984846116,
+                "score": -3.6167007984846116
+            },
+            "val": {
+                "rmse": 3.5476430648574837,
+                "score": -3.5476430648574837
+            },
+            "test": {
+                "rmse": 4.088311272906088,
+                "score": -4.088311272906088
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 54,
+        "tuning_time": "0:20:53"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.122782650769669,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.7078386899095025,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004580142263332904
+                },
+                "sparsity_loss_weight": 3.927836100481726e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.545518880287297,
+                "score": -4.545518880287297
+            },
+            "val": {
+                "rmse": 3.3986912694044884,
+                "score": -3.3986912694044884
+            },
+            "test": {
+                "rmse": 2.8793117442173672,
+                "score": -2.8793117442173672
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 55,
+        "tuning_time": "0:21:08"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.183106043807615,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.760631005572926,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008135127431229766
+                },
+                "sparsity_loss_weight": 1.486946789974986e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 9.69460633608127,
+                "score": -9.69460633608127
+            },
+            "val": {
+                "rmse": 3.1640615641201824,
+                "score": -3.1640615641201824
+            },
+            "test": {
+                "rmse": 3.2608958022674104,
+                "score": -3.2608958022674104
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 56,
+        "tuning_time": "0:21:25"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 7,
+                "relaxation_factor": 1.028790869786556,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4748378742619871,
+                    "decay_steps": 500,
+                    "learning_rate": 0.006098857515031158
+                },
+                "sparsity_loss_weight": 2.195206531397887e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 12,
+        "metrics": {
+            "train": {
+                "rmse": 4.231090093330609,
+                "score": -4.231090093330609
+            },
+            "val": {
+                "rmse": 3.5793689232698163,
+                "score": -3.5793689232698163
+            },
+            "test": {
+                "rmse": 3.7859860290255307,
+                "score": -3.7859860290255307
+            }
+        },
+        "time": "00h 00m 21s",
+        "trial_id": 57,
+        "tuning_time": "0:21:58"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.250728061874449,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5154330061298196,
+                    "decay_steps": 100,
+                    "learning_rate": 0.003141134157436388
+                },
+                "sparsity_loss_weight": 1.340749285882793e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 3.247609524413599,
+                "score": -3.247609524413599
+            },
+            "val": {
+                "rmse": 3.598497459880138,
+                "score": -3.598497459880138
+            },
+            "test": {
+                "rmse": 3.679621039312833,
+                "score": -3.679621039312833
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 58,
+        "tuning_time": "0:22:18"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.052188697864162,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.550424417430634,
+                    "decay_steps": 2000,
+                    "learning_rate": 0.004238281092495204
+                },
+                "sparsity_loss_weight": 5.719468452674437e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 4.402396582994369,
+                "score": -4.402396582994369
+            },
+            "val": {
+                "rmse": 3.665868836166194,
+                "score": -3.665868836166194
+            },
+            "test": {
+                "rmse": 5.211193762622452,
+                "score": -5.211193762622452
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 59,
+        "tuning_time": "0:22:32"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.303192343288066,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6178313762079737,
+                    "decay_steps": 500,
+                    "learning_rate": 0.003608957932746954
+                },
+                "sparsity_loss_weight": 1.882293040742213e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 11,
+        "metrics": {
+            "train": {
+                "rmse": 4.483627843137686,
+                "score": -4.483627843137686
+            },
+            "val": {
+                "rmse": 3.3778775800820666,
+                "score": -3.3778775800820666
+            },
+            "test": {
+                "rmse": 5.972980554016398,
+                "score": -5.972980554016398
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 60,
+        "tuning_time": "0:22:49"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.104239673697248,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6397364219590861,
+                    "decay_steps": 500,
+                    "learning_rate": 0.005289413923280326
+                },
+                "sparsity_loss_weight": 8.327325524602603e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 4.1873137408836785,
+                "score": -4.1873137408836785
+            },
+            "val": {
+                "rmse": 2.95899974219692,
+                "score": -2.95899974219692
+            },
+            "test": {
+                "rmse": 3.0385726668270157,
+                "score": -3.0385726668270157
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 61,
+        "tuning_time": "0:23:04"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.152766070714572,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5909074021120867,
+                    "decay_steps": 500,
+                    "learning_rate": 0.004809409599391232
+                },
+                "sparsity_loss_weight": 3.222926737483373e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 7.913246150719103,
+                "score": -7.913246150719103
+            },
+            "val": {
+                "rmse": 3.586251880468528,
+                "score": -3.586251880468528
+            },
+            "test": {
+                "rmse": 3.686722435944563,
+                "score": -3.686722435944563
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 62,
+        "tuning_time": "0:23:21"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.003129381905295,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.7184787267105592,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00524062886075334
+                },
+                "sparsity_loss_weight": 5.13774143918937e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 5.047289949821456,
+                "score": -5.047289949821456
+            },
+            "val": {
+                "rmse": 3.065996221980285,
+                "score": -3.065996221980285
+            },
+            "test": {
+                "rmse": 3.0854601863856117,
+                "score": -3.0854601863856117
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 63,
+        "tuning_time": "0:23:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.097824684860925,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6775865122889213,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00577834945549125
+                },
+                "sparsity_loss_weight": 1.413776080660179e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 3.626270511950303,
+                "score": -3.626270511950303
+            },
+            "val": {
+                "rmse": 3.608893846093177,
+                "score": -3.608893846093177
+            },
+            "test": {
+                "rmse": 3.859882477964309,
+                "score": -3.859882477964309
+            }
+        },
+        "time": "00h 00m 08s",
+        "trial_id": 64,
+        "tuning_time": "0:23:51"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.174806878238166,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4563931526767647,
+                    "decay_steps": 500,
+                    "learning_rate": 0.009432892853394107
+                },
+                "sparsity_loss_weight": 1.061318898044533e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 10.667557423201217,
+                "score": -10.667557423201217
+            },
+            "val": {
+                "rmse": 3.026194919974465,
+                "score": -3.026194919974465
+            },
+            "test": {
+                "rmse": 4.913967001459955,
+                "score": -4.913967001459955
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 65,
+        "tuning_time": "0:24:07"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.183802343330777,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5742704636720137,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00941406695363267
+                },
+                "sparsity_loss_weight": 0.0006152048684415524
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.756964505154982,
+                "score": -4.756964505154982
+            },
+            "val": {
+                "rmse": 3.347865231098152,
+                "score": -3.347865231098152
+            },
+            "test": {
+                "rmse": 2.58909919978122,
+                "score": -2.58909919978122
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 66,
+        "tuning_time": "0:24:27"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.348018820859336,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6437780198138447,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00963139068476838
+                },
+                "sparsity_loss_weight": 1.107461611231064e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 19,
+        "metrics": {
+            "train": {
+                "rmse": 10.817237163138724,
+                "score": -10.817237163138724
+            },
+            "val": {
+                "rmse": 3.171388430349478,
+                "score": -3.171388430349478
+            },
+            "test": {
+                "rmse": 3.5804235746451405,
+                "score": -3.5804235746451405
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 67,
+        "tuning_time": "0:24:43"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.240236506209364,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4932291687373876,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008826845511903178
+                },
+                "sparsity_loss_weight": 8.710316376323781e-06
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 3.3208233700145495,
+                "score": -3.3208233700145495
+            },
+            "val": {
+                "rmse": 3.691334104200453,
+                "score": -3.691334104200453
+            },
+            "test": {
+                "rmse": 3.3505840329441825,
+                "score": -3.3505840329441825
+            }
+        },
+        "time": "00h 00m 07s",
+        "trial_id": 68,
+        "tuning_time": "0:24:57"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.134529808856934,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.4500828908436019,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00998346429196128
+                },
+                "sparsity_loss_weight": 2.699070853070811e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.4813341001645375,
+                "score": -4.4813341001645375
+            },
+            "val": {
+                "rmse": 3.3384265015271084,
+                "score": -3.3384265015271084
+            },
+            "test": {
+                "rmse": 2.6300266435175783,
+                "score": -2.6300266435175783
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 69,
+        "tuning_time": "0:25:18"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.281143848225891,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5390037314017894,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008583709241230758
+                },
+                "sparsity_loss_weight": 5.069650640262422e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 30,
+        "metrics": {
+            "train": {
+                "rmse": 11.117163982520106,
+                "score": -11.117163982520106
+            },
+            "val": {
+                "rmse": 3.018509417702853,
+                "score": -3.018509417702853
+            },
+            "test": {
+                "rmse": 4.735987390513779,
+                "score": -4.735987390513779
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 70,
+        "tuning_time": "0:25:36"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.27956817082225,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5311329718475682,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008761091934504991
+                },
+                "sparsity_loss_weight": 4.117665363268156e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 8.920406030191861,
+                "score": -8.920406030191861
+            },
+            "val": {
+                "rmse": 3.1925239752815706,
+                "score": -3.1925239752815706
+            },
+            "test": {
+                "rmse": 3.083979433341716,
+                "score": -3.083979433341716
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 71,
+        "tuning_time": "0:25:51"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.20303705047869,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5131100924956341,
+                    "decay_steps": 500,
+                    "learning_rate": 0.00831905202832314
+                },
+                "sparsity_loss_weight": 5.977985665281671e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 7.900356505566255,
+                "score": -7.900356505566255
+            },
+            "val": {
+                "rmse": 2.7712044141980656,
+                "score": -2.7712044141980656
+            },
+            "test": {
+                "rmse": 3.7723612542129157,
+                "score": -3.7723612542129157
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 72,
+        "tuning_time": "0:26:08"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.210317970318988,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5425883848481027,
+                    "decay_steps": 500,
+                    "learning_rate": 0.008550954867286771
+                },
+                "sparsity_loss_weight": 0.0001126593562859068
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 9.114045222131184,
+                "score": -9.114045222131184
+            },
+            "val": {
+                "rmse": 2.761514183912702,
+                "score": -2.761514183912702
+            },
+            "test": {
+                "rmse": 3.325727652758348,
+                "score": -3.325727652758348
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 73,
+        "tuning_time": "0:26:24"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.218383527040243,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5492498951693074,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007677927570911761
+                },
+                "sparsity_loss_weight": 7.252413558128882e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 3.781402549901075,
+                "score": -3.781402549901075
+            },
+            "val": {
+                "rmse": 3.334275589828593,
+                "score": -3.334275589828593
+            },
+            "test": {
+                "rmse": 3.736327810780076,
+                "score": -3.736327810780076
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 74,
+        "tuning_time": "0:26:39"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.159111518528407,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6141600355482528,
+                    "decay_steps": 500,
+                    "learning_rate": 0.007922695169558788
+                },
+                "sparsity_loss_weight": 0.0001608309961742717
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.314302923140178,
+                "score": -4.314302923140178
+            },
+            "val": {
+                "rmse": 2.738581077638549,
+                "score": -2.738581077638549
+            },
+            "test": {
+                "rmse": 3.234864507231791,
+                "score": -3.234864507231791
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 75,
+        "tuning_time": "0:26:55"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.116871598626855,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6068546276940373,
+                    "decay_steps": 500,
+                    "learning_rate": 0.009015195647590629
+                },
+                "sparsity_loss_weight": 0.0001733930469729109
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.562297547408956,
+                "score": -4.562297547408956
+            },
+            "val": {
+                "rmse": 3.4326716871982126,
+                "score": -3.4326716871982126
+            },
+            "test": {
+                "rmse": 3.290471119399902,
+                "score": -3.290471119399902
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 76,
+        "tuning_time": "0:27:16"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.205197968598434,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6218484592882313,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008354219449694906
+                },
+                "sparsity_loss_weight": 0.0001157742185603688
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 7.040018699999953,
+                "score": -7.040018699999953
+            },
+            "val": {
+                "rmse": 2.4581197276498883,
+                "score": -2.4581197276498883
+            },
+            "test": {
+                "rmse": 3.4822917520573746,
+                "score": -3.4822917520573746
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 77,
+        "tuning_time": "0:27:33"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.198987547049414,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5856855927659854,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008338274627262512
+                },
+                "sparsity_loss_weight": 0.0003525385969564668
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 9.549110389395134,
+                "score": -9.549110389395134
+            },
+            "val": {
+                "rmse": 2.9018267265564264,
+                "score": -2.9018267265564264
+            },
+            "test": {
+                "rmse": 3.9053871173298504,
+                "score": -3.9053871173298504
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 78,
+        "tuning_time": "0:27:50"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 64,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.202004858030947,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5744560446916409,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008219234366894096
+                },
+                "sparsity_loss_weight": 0.0003592994771722017
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 10.209648104556235,
+                "score": -10.209648104556235
+            },
+            "val": {
+                "rmse": 3.2980823453050605,
+                "score": -3.2980823453050605
+            },
+            "test": {
+                "rmse": 6.7757664610548645,
+                "score": -6.7757664610548645
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 79,
+        "tuning_time": "0:28:06"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.162621193645686,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5968757724127953,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008430148443202258
+                },
+                "sparsity_loss_weight": 0.001930817395159473
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.127205649836466,
+                "score": -5.127205649836466
+            },
+            "val": {
+                "rmse": 3.9486797024837355,
+                "score": -3.9486797024837355
+            },
+            "test": {
+                "rmse": 3.2367990440350005,
+                "score": -3.2367990440350005
+            }
+        },
+        "time": "00h 00m 13s",
+        "trial_id": 80,
+        "tuning_time": "0:28:27"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.207187415896716,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6155101266686943,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007868383812201982
+                },
+                "sparsity_loss_weight": 0.0001082199868272487
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.560714479061989,
+                "score": -4.560714479061989
+            },
+            "val": {
+                "rmse": 3.174804473998615,
+                "score": -3.174804473998615
+            },
+            "test": {
+                "rmse": 3.4351980780472484,
+                "score": -3.4351980780472484
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 81,
+        "tuning_time": "0:28:43"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.239613046135839,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5797462333204517,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007231580634767362
+                },
+                "sparsity_loss_weight": 0.0002242749153528659
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 8.18285625973477,
+                "score": -8.18285625973477
+            },
+            "val": {
+                "rmse": 2.901567739330793,
+                "score": -2.901567739330793
+            },
+            "test": {
+                "rmse": 3.2366360792016375,
+                "score": -3.2366360792016375
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 82,
+        "tuning_time": "0:28:59"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.227213739289897,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5771529204251583,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008406536558459044
+                },
+                "sparsity_loss_weight": 0.0003012787464916039
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 6.304978976612809,
+                "score": -6.304978976612809
+            },
+            "val": {
+                "rmse": 2.7023331187793165,
+                "score": -2.7023331187793165
+            },
+            "test": {
+                "rmse": 2.7908785819850803,
+                "score": -2.7908785819850803
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 83,
+        "tuning_time": "0:29:15"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.248919192335242,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5787435742273819,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007550707099632249
+                },
+                "sparsity_loss_weight": 0.0003366995139962442
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 6.444640086039626,
+                "score": -6.444640086039626
+            },
+            "val": {
+                "rmse": 3.1449957675502507,
+                "score": -3.1449957675502507
+            },
+            "test": {
+                "rmse": 2.688155724180543,
+                "score": -2.688155724180543
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 84,
+        "tuning_time": "0:29:31"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.135688494682558,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5577764914776595,
+                    "decay_steps": 100,
+                    "learning_rate": 0.00832479432918929
+                },
+                "sparsity_loss_weight": 0.0002170351024297036
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 15,
+        "metrics": {
+            "train": {
+                "rmse": 5.212581932542656,
+                "score": -5.212581932542656
+            },
+            "val": {
+                "rmse": 3.0368972655124917,
+                "score": -3.0368972655124917
+            },
+            "test": {
+                "rmse": 3.556241394651883,
+                "score": -3.556241394651883
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 85,
+        "tuning_time": "0:29:47"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.314154789090985,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6253059258175101,
+                    "decay_steps": 100,
+                    "learning_rate": 0.009032910120237467
+                },
+                "sparsity_loss_weight": 0.0004202206054079214
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 6.330421933324493,
+                "score": -6.330421933324493
+            },
+            "val": {
+                "rmse": 2.9072126261352187,
+                "score": -2.9072126261352187
+            },
+            "test": {
+                "rmse": 3.89527626946891,
+                "score": -3.89527626946891
+            }
+        },
+        "time": "00h 00m 11s",
+        "trial_id": 86,
+        "tuning_time": "0:30:04"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 16,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.329842104343108,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6670697175008762,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008070046795895439
+                },
+                "sparsity_loss_weight": 0.0005386679925468516
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 8,
+        "metrics": {
+            "train": {
+                "rmse": 5.111862335703321,
+                "score": -5.111862335703321
+            },
+            "val": {
+                "rmse": 3.9350869374830992,
+                "score": -3.9350869374830992
+            },
+            "test": {
+                "rmse": 7.280268334969343,
+                "score": -7.280268334969343
+            }
+        },
+        "time": "00h 00m 07s",
+        "trial_id": 87,
+        "tuning_time": "0:30:17"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 8,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.235180434197517,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6186122383166721,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007223121032882598
+                },
+                "sparsity_loss_weight": 0.0008718545248544652
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 10,
+        "metrics": {
+            "train": {
+                "rmse": 4.735229493091465,
+                "score": -4.735229493091465
+            },
+            "val": {
+                "rmse": 4.025759154586077,
+                "score": -4.025759154586077
+            },
+            "test": {
+                "rmse": 5.939883827741414,
+                "score": -5.939883827741414
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 88,
+        "tuning_time": "0:30:35"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.365757944316668,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6067150976368307,
+                    "decay_steps": 100,
+                    "learning_rate": 0.009068889784090586
+                },
+                "sparsity_loss_weight": 0.0001256062044638568
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 20,
+        "metrics": {
+            "train": {
+                "rmse": 9.685136888806538,
+                "score": -9.685136888806538
+            },
+            "val": {
+                "rmse": 2.862331935582827,
+                "score": -2.862331935582827
+            },
+            "test": {
+                "rmse": 3.761874534063328,
+                "score": -3.761874534063328
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 89,
+        "tuning_time": "0:30:52"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.459872088750212,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6019402321187219,
+                    "decay_steps": 100,
+                    "learning_rate": 0.009079990333168806
+                },
+                "sparsity_loss_weight": 0.000126488841463346
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 18,
+        "metrics": {
+            "train": {
+                "rmse": 10.917051660151083,
+                "score": -10.917051660151083
+            },
+            "val": {
+                "rmse": 4.090507858362584,
+                "score": -4.090507858362584
+            },
+            "test": {
+                "rmse": 4.189191767371737,
+                "score": -4.189191767371737
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 90,
+        "tuning_time": "0:31:08"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.313678606518333,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5598138260276566,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008513974177865587
+                },
+                "sparsity_loss_weight": 0.0004242604702633943
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 30,
+        "metrics": {
+            "train": {
+                "rmse": 10.867193210709353,
+                "score": -10.867193210709353
+            },
+            "val": {
+                "rmse": 2.916314876447719,
+                "score": -2.916314876447719
+            },
+            "test": {
+                "rmse": 5.155034240138887,
+                "score": -5.155034240138887
+            }
+        },
+        "time": "00h 00m 12s",
+        "trial_id": 91,
+        "tuning_time": "0:31:26"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.217154300397632,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5890776855035293,
+                    "decay_steps": 100,
+                    "learning_rate": 0.00894014235320851
+                },
+                "sparsity_loss_weight": 0.0002521875379079448
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 9.49469882600056,
+                "score": -9.49469882600056
+            },
+            "val": {
+                "rmse": 3.1494353816805023,
+                "score": -3.1494353816805023
+            },
+            "test": {
+                "rmse": 3.5453224320505115,
+                "score": -3.5453224320505115
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 92,
+        "tuning_time": "0:31:42"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.363700532759605,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5813560129617417,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007924754121310879
+                },
+                "sparsity_loss_weight": 0.0001619678439659221
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 7.750549179346259,
+                "score": -7.750549179346259
+            },
+            "val": {
+                "rmse": 3.261177422902935,
+                "score": -3.261177422902935
+            },
+            "test": {
+                "rmse": 3.8139031363724754,
+                "score": -3.8139031363724754
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 93,
+        "tuning_time": "0:31:58"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.253128820828409,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6287644135535353,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007271183125848911
+                },
+                "sparsity_loss_weight": 0.000925693146013025
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 4.399520966155347,
+                "score": -4.399520966155347
+            },
+            "val": {
+                "rmse": 3.0551627690410013,
+                "score": -3.0551627690410013
+            },
+            "test": {
+                "rmse": 3.382073205153768,
+                "score": -3.382073205153768
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 94,
+        "tuning_time": "0:32:14"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.54040393748147,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6049210842787114,
+                    "decay_steps": 100,
+                    "learning_rate": 0.009625605501824704
+                },
+                "sparsity_loss_weight": 0.001196235563862763
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 16,
+        "metrics": {
+            "train": {
+                "rmse": 8.290702895238812,
+                "score": -8.290702895238812
+            },
+            "val": {
+                "rmse": 3.100088991623927,
+                "score": -3.100088991623927
+            },
+            "test": {
+                "rmse": 3.226794623535338,
+                "score": -3.226794623535338
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 95,
+        "tuning_time": "0:32:30"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 32,
+                "num_decision_steps": 4,
+                "relaxation_factor": 1.265247660562339,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5027323771127337,
+                    "decay_steps": 100,
+                    "learning_rate": 0.00838090277212875
+                },
+                "sparsity_loss_weight": 0.0001054531300992594
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 13,
+        "metrics": {
+            "train": {
+                "rmse": 6.784036830566243,
+                "score": -6.784036830566243
+            },
+            "val": {
+                "rmse": 3.348599297167002,
+                "score": -3.348599297167002
+            },
+            "test": {
+                "rmse": 3.097419193088566,
+                "score": -3.097419193088566
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 96,
+        "tuning_time": "0:32:48"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.300354736955137,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.658700956171553,
+                    "decay_steps": 100,
+                    "learning_rate": 0.007655927949596537
+                },
+                "sparsity_loss_weight": 0.0002484416900038384
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 14,
+        "metrics": {
+            "train": {
+                "rmse": 3.550192560976564,
+                "score": -3.550192560976564
+            },
+            "val": {
+                "rmse": 3.04372391217968,
+                "score": -3.04372391217968
+            },
+            "test": {
+                "rmse": 3.2590148844392473,
+                "score": -3.2590148844392473
+            }
+        },
+        "time": "00h 00m 09s",
+        "trial_id": 97,
+        "tuning_time": "0:33:04"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.404461799887229,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.6231595663042666,
+                    "decay_steps": 100,
+                    "learning_rate": 0.008683171237714046
+                },
+                "sparsity_loss_weight": 0.0004682495277440149
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 17,
+        "metrics": {
+            "train": {
+                "rmse": 8.982136107200864,
+                "score": -8.982136107200864
+            },
+            "val": {
+                "rmse": 3.812641209339055,
+                "score": -3.812641209339055
+            },
+            "test": {
+                "rmse": 3.3711635277622776,
+                "score": -3.3711635277622776
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 98,
+        "tuning_time": "0:33:20"
+    },
+    {
+        "dataset": "data/new_recorder_whole_merged_batches",
+        "algorithm": "tabnet",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "batch_momentum": 0.95,
+                "feature_dim": 128,
+                "num_decision_steps": 3,
+                "relaxation_factor": 1.205898195251599,
+                "virtual_batch_size": 4
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "display_steps": 100,
+                "epochs": 50000,
+                "grad_thresh": 2000.0,
+                "patience": 16,
+                "schedule": {
+                    "decay_rate": 0.5413804635749581,
+                    "decay_steps": 100,
+                    "learning_rate": 0.00925749371638222
+                },
+                "sparsity_loss_weight": 7.683250634674261e-05
+            }
+        },
+        "environment": {},
+        "batch_size": 32,
+        "epoch_size": 8,
+        "best_epoch": 17,
+        "metrics": {
+            "train": {
+                "rmse": 6.965419141061789,
+                "score": -6.965419141061789
+            },
+            "val": {
+                "rmse": 2.8924217336878613,
+                "score": -2.8924217336878613
+            },
+            "test": {
+                "rmse": 3.370998865028692,
+                "score": -3.370998865028692
+            }
+        },
+        "time": "00h 00m 10s",
+        "trial_id": 99,
+        "tuning_time": "0:33:37"
+    }
+]

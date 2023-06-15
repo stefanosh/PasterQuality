@@ -1,0 +1,29 @@
+{
+    "dataset": "new_recorder_whole_merged_batches",
+    "algorithm": "grownet",
+    "config": {
+        "source": "output_pasterquality/new_recorder_whole_merged_batches/grownet/tuned",
+        "seeds": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.629099941573568,
+            "score": -1.629099941573568
+        },
+        "val": {
+            "rmse": 3.106218621622078,
+            "score": -3.106218621622078
+        },
+        "test": {
+            "rmse": 2.942855000416862,
+            "score": -2.942855000416862
+        }
+    }
+}

@@ -1,0 +1,25 @@
+seed = 9
+
+[data]
+normalization = 'quantile'
+path = 'data/new_recorder_whole_merged_batches'
+y_policy = 'mean_std'
+
+[model]
+activation = 'relu'
+attention_dropout = 0.4338973380310556
+d_token = 28
+initialization = 'kaiming'
+n_heads = 2
+n_layers = 4
+prenormalization = false
+residual_dropout = 0.05023548700891388
+
+[training]
+batch_size = 32
+eval_batch_size = 8192
+lr = 0.000309331103521153
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 7.000318054067958e-06
