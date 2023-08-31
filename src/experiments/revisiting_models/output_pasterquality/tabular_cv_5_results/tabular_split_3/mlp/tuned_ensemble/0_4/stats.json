@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_3",
+    "algorithm": "mlp",
+    "config": {
+        "source": "output_pasterquality/tabular_split_3/mlp/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.4610382323716753,
+            "score": -1.4610382323716753
+        },
+        "val": {
+            "rmse": 2.3391427610578885,
+            "score": -2.3391427610578885
+        },
+        "test": {
+            "rmse": 2.2990162137885752,
+            "score": -2.2990162137885752
+        }
+    }
+}

@@ -1,0 +1,26 @@
+seed = 10
+
+[data]
+normalization = 'quantile'
+path = 'data/tabular_split_1'
+y_policy = 'mean_std'
+
+[model]
+batch_momentum = 0.95
+feature_dim = 128
+num_decision_steps = 3
+relaxation_factor = 1.205197968598434
+virtual_batch_size = 4
+
+[training]
+batch_size = 32
+display_steps = 100
+epochs = 50000
+grad_thresh = 2000.0
+patience = 16
+sparsity_loss_weight = 0.0001157742185603688
+
+    [training.schedule]
+    decay_rate = 0.6218484592882313
+    decay_steps = 100
+    learning_rate = 0.008354219449694906

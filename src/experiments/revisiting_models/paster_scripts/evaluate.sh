@@ -14,6 +14,7 @@ script_dir=$(dirname "$script_path")
 dataset_name=$1
 n_trials=$2
 batch_size=$3
+evaluation_seeds=$4
 
 output_folder="output_pasterquality"
 
@@ -48,21 +49,19 @@ for folder in $folder_dir/*; do
     mkdir -p $PROJECT_DIR/$output_folder/$dataset_name/$folder_name/tuned
 
     python -c "
-for seed in range(15):
+for seed in range($evaluation_seeds):
     open(f'$PROJECT_DIR/$output_folder/$dataset_name/$folder_name/tuned/{seed}.toml', 'w').write(
         open('$PROJECT_DIR/$output_folder/$dataset_name/$folder_name/tuning/0/best.toml').read().replace('seed = 0', f'seed = {seed}')
     )
 "
 
     if [ "$folder_name" != "tabnet" ] && [ "$folder_name" != "node" ]; then
-        for seed in {0..14}
-        do
-            python bin/$folder_name.py $output_folder/$dataset_name/$folder_name/tuned/${seed}.toml | tee $file_path /dev/tty
+        for seed in $(seq 0 $evaluation_seeds); do
+            python bin/$folder_name.py $output_folder/$dataset_name/$folder_name/tuned/${seed}.toml -f | tee $file_path /dev/tty
         done
     elif [ "$folder_name" == "tabnet" ]; then
-        for seed in {0..14}
-        do
-            conda run -n revisiting_models_tf python bin/$folder_name.py $output_folder/$dataset_name/$folder_name/tuned/${seed}.toml | tee $file_path /dev/tty
+        for seed in $(seq 0 $evaluation_seeds); do
+            conda run -n rtdl_tf_copy python bin/$folder_name.py $output_folder/$dataset_name/$folder_name/tuned/${seed}.toml -f | tee $file_path /dev/tty
         done
     fi
 done
@@ -74,7 +73,7 @@ execution_time=$(( $(date -d "$end_time" '+%s') - $(date -d "$start_time" '+%s')
 execution_minutes=$(( $execution_time / 60 ))
 echo "Script --$script_name-- execution time: $execution_time seconds"
 
-file_name="${script_name}_start_${start_time}_end_${end_time}_$dataset_name_${n_trials}_trials_${batch_size}_batch_size"
+file_name="${script_name}_start_${start_time}_end_${end_time}_${dataset_name}_${n_trials}_trials_${batch_size}_batch_size"
 file_path="$script_dir/logs/$file_name"
 
 #TODO: error count is not correct

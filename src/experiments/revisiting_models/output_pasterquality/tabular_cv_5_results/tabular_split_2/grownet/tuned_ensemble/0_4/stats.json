@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_2",
+    "algorithm": "grownet",
+    "config": {
+        "source": "output_pasterquality/tabular_split_2/grownet/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.4719699021336554,
+            "score": -1.4719699021336554
+        },
+        "val": {
+            "rmse": 2.926279534439342,
+            "score": -2.926279534439342
+        },
+        "test": {
+            "rmse": 4.734846667848068,
+            "score": -4.734846667848068
+        }
+    }
+}

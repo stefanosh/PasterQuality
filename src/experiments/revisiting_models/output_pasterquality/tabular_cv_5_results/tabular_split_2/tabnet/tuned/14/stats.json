@@ -1,0 +1,51 @@
+{
+    "dataset": "data/tabular_split_2",
+    "algorithm": "tabnet",
+    "config": {
+        "data": {
+            "normalization": "quantile",
+            "path": "data/tabular_split_2",
+            "y_policy": "mean_std"
+        },
+        "model": {
+            "batch_momentum": 0.95,
+            "feature_dim": 128,
+            "num_decision_steps": 3,
+            "relaxation_factor": 1.205197968598434,
+            "virtual_batch_size": 4
+        },
+        "seed": 14,
+        "training": {
+            "batch_size": 32,
+            "display_steps": 100,
+            "epochs": 50000,
+            "grad_thresh": 2000.0,
+            "patience": 16,
+            "schedule": {
+                "decay_rate": 0.6218484592882313,
+                "decay_steps": 100,
+                "learning_rate": 0.008354219449694906
+            },
+            "sparsity_loss_weight": 0.0001157742185603688
+        }
+    },
+    "environment": {},
+    "batch_size": 32,
+    "epoch_size": 8,
+    "best_epoch": 13,
+    "metrics": {
+        "train": {
+            "rmse": 4.369794852120154,
+            "score": -4.369794852120154
+        },
+        "val": {
+            "rmse": 4.159986501260029,
+            "score": -4.159986501260029
+        },
+        "test": {
+            "rmse": 5.425418238957991,
+            "score": -5.425418238957991
+        }
+    },
+    "time": "00h 00m 09s"
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "dataset": "new_recorder_whole_merged_batches",
+        "algorithm": "autoint",
+        "config": {
+            "data": {
+                "normalization": "quantile",
+                "path": "data/new_recorder_whole_merged_batches",
+                "y_policy": "mean_std"
+            },
+            "model": {
+                "activation": "relu",
+                "attention_dropout": 0.2744067519636624,
+                "d_token": 50,
+                "initialization": "kaiming",
+                "n_heads": 2,
+                "n_layers": 1,
+                "prenormalization": false,
+                "residual_dropout": 0.1715891235245514
+            },
+            "seed": 0,
+            "training": {
+                "batch_size": 32,
+                "eval_batch_size": 8192,
+                "lr": 0.0004948840736375751,
+                "n_epochs": 1000000000,
+                "optimizer": "adamw",
+                "patience": 16,
+                "weight_decay": 7.424908231815009e-05
+            }
+        },
+        "environment": {
+            "devices": {
+                "CUDA_VISIBLE_DEVICES": "0,1",
+                "torch.version.cuda": "11.7",
+                "torch.backends.cudnn.version()": 8500,
+                "torch.cuda.nccl.version()": [
+                    2,
+                    14,
+                    3
+                ],
+                "driver": "525.105.17",
+                "0": {
+                    "name": "NVIDIA GeForce RTX 3080",
+                    "total_memory": 10737418240
+                },
+                "1": {
+                    "name": "NVIDIA GeForce RTX 3080",
+                    "total_memory": 10737418240
+                }
+            }
+        },
+        "epoch_size": 9,
+        "n_parameters": 12451,
+        "best_epoch": 36,
+        "metrics": {
+            "train": {
+                "rmse": 2.2117328833935925,
+                "score": -2.2117328833935925
+            },
+            "val": {
+                "rmse": 2.916694610986006,
+                "score": -2.916694610986006
+            },
+            "test": {
+                "rmse": 3.717066633958335,
+                "score": -3.717066633958335
+            }
+        },
+        "time": "0:00:06",
+        "trial_id": 0,
+        "tuning_time": "0:00:08"
+    }
+]

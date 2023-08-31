@@ -1,0 +1,78 @@
+{
+    "dataset": "tabular_split_2",
+    "algorithm": "snn",
+    "config": {
+        "data": {
+            "normalization": "quantile",
+            "path": "data/tabular_split_2",
+            "y_policy": "mean_std"
+        },
+        "model": {
+            "d_layers": [
+                270,
+                368,
+                368,
+                368,
+                368,
+                368,
+                368,
+                368,
+                368,
+                368,
+                25
+            ],
+            "dropout": 0.01701730383250129
+        },
+        "seed": 9,
+        "training": {
+            "batch_size": 32,
+            "eval_batch_size": 8192,
+            "lr": 0.0007947976965896372,
+            "lr_n_decays": 0,
+            "n_epochs": 1000000000,
+            "optimizer": "adamw",
+            "patience": 16,
+            "weight_decay": 0
+        }
+    },
+    "environment": {
+        "devices": {
+            "CUDA_VISIBLE_DEVICES": "0,1",
+            "torch.version.cuda": "11.7",
+            "torch.backends.cudnn.version()": 8500,
+            "torch.cuda.nccl.version()": [
+                2,
+                14,
+                3
+            ],
+            "driver": "535.104.05",
+            "0": {
+                "name": "NVIDIA GeForce RTX 3080",
+                "total_memory": 10737418240
+            },
+            "1": {
+                "name": "NVIDIA GeForce RTX 3080",
+                "total_memory": 10737418240
+            }
+        }
+    },
+    "batch_size": 32,
+    "epoch_size": 9,
+    "n_parameters": 1201525,
+    "best_epoch": 45,
+    "metrics": {
+        "train": {
+            "rmse": 1.5703357716775042,
+            "score": -1.5703357716775042
+        },
+        "val": {
+            "rmse": 2.611851496041038,
+            "score": -2.611851496041038
+        },
+        "test": {
+            "rmse": 4.181248236488183,
+            "score": -4.181248236488183
+        }
+    },
+    "time": "0:00:03"
+}

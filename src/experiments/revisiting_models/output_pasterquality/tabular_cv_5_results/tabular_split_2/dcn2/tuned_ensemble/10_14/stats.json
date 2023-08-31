@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_2",
+    "algorithm": "dcn2",
+    "config": {
+        "source": "output_pasterquality/tabular_split_2/dcn2/tuned",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.7620598133844472,
+            "score": -1.7620598133844472
+        },
+        "val": {
+            "rmse": 2.9655245541615916,
+            "score": -2.9655245541615916
+        },
+        "test": {
+            "rmse": 5.147875758878831,
+            "score": -5.147875758878831
+        }
+    }
+}

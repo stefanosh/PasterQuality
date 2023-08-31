@@ -49,7 +49,7 @@ for folder in $folder_dir/*; do
         # Run the tunining of the model
         python bin/ensemble.py $folder_name $output_folder/$dataset_name/$folder_name/tuned | tee $file_path /dev/tty
     elif [ "$folder_name" == "tabnet" ]; then
-        conda run -n revisiting_models_tf python bin/ensemble.py tabnet $output_folder/$dataset_name/tabnet/tuned | tee $file_path /dev/tty
+        conda run -n rtdl_tf_copy python bin/ensemble.py tabnet $output_folder/$dataset_name/tabnet/tuned | tee $file_path /dev/tty
     fi
 done
 
@@ -60,7 +60,7 @@ execution_time=$(( $(date -d "$end_time" '+%s') - $(date -d "$start_time" '+%s')
 execution_minutes=$(( $execution_time / 60 ))
 echo "Script --$script_name-- execution time: $execution_time seconds"
 
-file_name="${script_name}_start_${start_time}_end_${end_time}_$dataset_name_${n_trials}_trials_${batch_size}_batch_size"
+file_name="${script_name}_start_${start_time}_end_${end_time}_${dataset_name}_${n_trials}_trials_${batch_size}_batch_size"
 file_path="$script_dir/logs/$file_name"
 
 #TODO: error count is not correct

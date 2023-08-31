@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_1",
+    "algorithm": "catboost_",
+    "config": {
+        "source": "output_pasterquality/tabular_split_1/catboost_/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.874417419047632,
+            "score": -1.874417419047632
+        },
+        "val": {
+            "rmse": 2.066905601351458,
+            "score": -2.066905601351458
+        },
+        "test": {
+            "rmse": 3.3242124913656736,
+            "score": -3.3242124913656736
+        }
+    }
+}

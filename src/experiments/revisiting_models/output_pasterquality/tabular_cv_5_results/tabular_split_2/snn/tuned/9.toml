@@ -1,0 +1,20 @@
+seed = 9
+
+[data]
+normalization = 'quantile'
+path = 'data/tabular_split_2'
+y_policy = 'mean_std'
+
+[model]
+d_layers = [ 270, 368, 368, 368, 368, 368, 368, 368, 368, 368, 25 ]
+dropout = 0.01701730383250129
+
+[training]
+batch_size = 32
+eval_batch_size = 8192
+lr = 0.0007947976965896372
+lr_n_decays = 0
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 0

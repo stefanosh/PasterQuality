@@ -98,7 +98,7 @@ p = Path('$PROJECT_DIR/$output_folder/$dataset_name/$folder_name/tuning/0.toml')
 p.write_text(p.read_text().replace('virtual_batch_size = 256', 'batch_size = $virtua_batch_size'))
 " #2> >(tee -a "$log_file" >&2) > >(tee -a /dev/null)
         
-        conda run -n revisiting_models_tf python bin/tune.py $output_folder/$dataset_name/tabnet/tuning/0.toml -f | tee $file_path /dev/tty
+        conda run -n rtdl_tf_copy python bin/tune.py $output_folder/$dataset_name/tabnet/tuning/0.toml -f | tee $file_path /dev/tty
 
         if [ $? -ne 0 ]; then
             # Increment the error count if the return code is non-zero
@@ -114,7 +114,7 @@ execution_time=$(( $(date -d "$end_time" '+%s') - $(date -d "$start_time" '+%s')
 execution_minutes=$(( $execution_time / 60 ))
 echo "Script --$script_name-- execution time: $execution_time seconds"
 
-file_name="${script_name}_start_${start_time}_end_${end_time}_$dataset_name_${n_trials}_trials_${batch_size}_batch_size"
+file_name="${script_name}_start_${start_time}_end_${end_time}_${dataset_name}_${n_trials}_trials_${batch_size}_batch_size"
 file_path="$script_dir/logs/$file_name"
 
 #TODO: error count is not correct

@@ -82,6 +82,7 @@ def load_config(
     sep = '=' * (8 + max(len(str(config_path)), len(str(output_dir))))  # type: ignore[code]
     print(sep, f'Config: {config_path}', f'Output: {output_dir}', sep, sep='\n')
 
+    print(config_path)
     assert config_path.exists()
     config = load_toml(config_path)
 

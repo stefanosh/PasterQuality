@@ -1,0 +1,68 @@
+{
+    "dataset": "tabular_split_1",
+    "algorithm": "dcn2",
+    "config": {
+        "data": {
+            "normalization": "quantile",
+            "path": "data/tabular_split_1",
+            "y_policy": "mean_std"
+        },
+        "model": {
+            "cross_dropout": 0.3754048643018871,
+            "d": 465,
+            "hidden_dropout": 0.07791537301600708,
+            "n_cross_layers": 3,
+            "n_hidden_layers": 8,
+            "stacked": false
+        },
+        "seed": 12,
+        "training": {
+            "batch_size": 32,
+            "eval_batch_size": 8192,
+            "lr": 1.761831490264707e-05,
+            "n_epochs": 1000000000,
+            "optimizer": "adamw",
+            "patience": 16,
+            "weight_decay": 0.0
+        }
+    },
+    "environment": {
+        "devices": {
+            "CUDA_VISIBLE_DEVICES": "0,1",
+            "torch.version.cuda": "11.7",
+            "torch.backends.cudnn.version()": 8500,
+            "torch.cuda.nccl.version()": [
+                2,
+                14,
+                3
+            ],
+            "driver": "535.104.05",
+            "0": {
+                "name": "NVIDIA GeForce RTX 3080",
+                "total_memory": 10737418240
+            },
+            "1": {
+                "name": "NVIDIA GeForce RTX 3080",
+                "total_memory": 10737418240
+            }
+        }
+    },
+    "epoch_size": 9,
+    "n_parameters": 2395216,
+    "best_epoch": 32,
+    "metrics": {
+        "train": {
+            "rmse": 2.8429965891868347,
+            "score": -2.8429965891868347
+        },
+        "val": {
+            "rmse": 2.351283236531299,
+            "score": -2.351283236531299
+        },
+        "test": {
+            "rmse": 3.9510207777092883,
+            "score": -3.9510207777092883
+        }
+    },
+    "time": "0:00:04"
+}

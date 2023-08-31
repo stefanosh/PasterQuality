@@ -1,0 +1,29 @@
+{
+    "dataset": "data/tabular_split_1",
+    "algorithm": "tabnet",
+    "config": {
+        "source": "output_pasterquality/tabular_split_1/tabnet/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 4.623179854450327,
+            "score": -4.623179854450327
+        },
+        "val": {
+            "rmse": 2.5220933508640138,
+            "score": -2.5220933508640138
+        },
+        "test": {
+            "rmse": 7.1632108132225,
+            "score": -7.1632108132225
+        }
+    }
+}

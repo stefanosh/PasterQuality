@@ -1,0 +1,19 @@
+seed = 1
+
+[data]
+normalization = 'quantile'
+path = 'data/tabular_split_3'
+y_policy = 'mean_std'
+
+[model]
+d_layers = [ 165, 203 ]
+dropout = 0.1917791540862729
+
+[training]
+batch_size = 32
+eval_batch_size = 8192
+lr = 0.0005933993058788831
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 0.0007681691671416953

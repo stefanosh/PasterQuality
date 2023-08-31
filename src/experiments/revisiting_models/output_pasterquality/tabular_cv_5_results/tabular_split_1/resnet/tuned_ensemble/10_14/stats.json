@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_1",
+    "algorithm": "resnet",
+    "config": {
+        "source": "output_pasterquality/tabular_split_1/resnet/tuned",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 2.177269291507749,
+            "score": -2.177269291507749
+        },
+        "val": {
+            "rmse": 2.256204880117421,
+            "score": -2.256204880117421
+        },
+        "test": {
+            "rmse": 3.2738485418276158,
+            "score": -3.2738485418276158
+        }
+    }
+}
