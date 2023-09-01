@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_6",
+    "algorithm": "xgboost_",
+    "config": {
+        "source": "output_pasterquality/tabular_split_6/xgboost_/tuned",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.5456838537111667,
+            "score": -0.5456838537111667
+        },
+        "val": {
+            "rmse": 4.8166804379339725,
+            "score": -4.8166804379339725
+        },
+        "test": {
+            "rmse": 1.9517534685183462,
+            "score": -1.9517534685183462
+        }
+    }
+}

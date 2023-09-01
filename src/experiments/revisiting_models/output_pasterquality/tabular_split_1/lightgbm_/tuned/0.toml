@@ -1,0 +1,20 @@
+seed = 0
+
+[data]
+path = 'data/tabular_split_1'
+y_policy = 'mean_std'
+
+[fit]
+early_stopping_rounds = 50
+verbose = true
+
+[model]
+colsample_bytree = 0.8345893062495058
+learning_rate = 0.3530622232743255
+min_child_samples = 16
+min_child_weight = 0.0001140503548903848
+n_estimators = 2000
+n_jobs = 1
+num_leaves = 27
+reg_lambda = 0.001038599909563687
+subsample = 0.6383958352315131

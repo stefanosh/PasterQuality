@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_5",
+    "algorithm": "lightgbm_",
+    "config": {
+        "source": "output_pasterquality/tabular_split_5/lightgbm_/tuned",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 1.1381991625723389,
+            "score": -1.1381991625723389
+        },
+        "val": {
+            "rmse": 2.634800502236175,
+            "score": -2.634800502236175
+        },
+        "test": {
+            "rmse": 3.9910499098313594,
+            "score": -3.9910499098313594
+        }
+    }
+}

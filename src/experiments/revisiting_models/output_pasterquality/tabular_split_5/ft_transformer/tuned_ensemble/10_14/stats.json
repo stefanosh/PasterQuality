@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_5",
+    "algorithm": "ft_transformer",
+    "config": {
+        "source": "output_pasterquality/tabular_split_5/ft_transformer/tuned",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 2.0643512144707925,
+            "score": -2.0643512144707925
+        },
+        "val": {
+            "rmse": 2.7671930132591727,
+            "score": -2.7671930132591727
+        },
+        "test": {
+            "rmse": 2.357156913292203,
+            "score": -2.357156913292203
+        }
+    }
+}

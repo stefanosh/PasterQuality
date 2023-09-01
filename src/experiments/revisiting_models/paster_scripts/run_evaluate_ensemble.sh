@@ -13,7 +13,7 @@ script_dir=$(dirname "$script_path")
 
 # Define here all the datasets (they have to be defined in data/ and also in the .toml files respectively)
 # datasets="tabular_100_trials_32_batch_size"
-datasets="tabular_split_0 tabular_split_1 tabular_split_2 tabular_split_3 tabular_split_4"
+datasets="tabular_split_5 tabular_split_6"
 
 n_trials=100
 batch_size=32

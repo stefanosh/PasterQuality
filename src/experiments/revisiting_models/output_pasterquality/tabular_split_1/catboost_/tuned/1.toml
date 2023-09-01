@@ -1,0 +1,21 @@
+seed = 1
+
+[data]
+path = 'data/tabular_split_1'
+y_policy = 'mean_std'
+
+[fit]
+logging_level = 'Verbose'
+
+[model]
+bagging_temperature = 0.05902378683059742
+depth = 3
+early_stopping_rounds = 50
+iterations = 2000
+l2_leaf_reg = 4.589214908492498
+leaf_estimation_iterations = 6
+learning_rate = 0.03607048234387518
+metric_period = 10
+od_pval = 0.001
+task_type = 'GPU'
+thread_count = 1

@@ -1,0 +1,29 @@
+{
+    "dataset": "tabular_split_5",
+    "algorithm": "snn",
+    "config": {
+        "source": "output_pasterquality/tabular_split_5/snn/tuned",
+        "seeds": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 2.1470963523177,
+            "score": -2.1470963523177
+        },
+        "val": {
+            "rmse": 2.9907429561378547,
+            "score": -2.9907429561378547
+        },
+        "test": {
+            "rmse": 2.756793536639207,
+            "score": -2.756793536639207
+        }
+    }
+}
